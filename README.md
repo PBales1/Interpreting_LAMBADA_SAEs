@@ -1,4 +1,4 @@
-# Interpreting_LAMBADA_SAEs
+# Steering_Hallucinations_In_Language_Models
 Steering Hallucinations in Language Models: Extending the Linear Representation Hypothesis with Sparse Autoencoders and Transcoders
 
 This Repository holds code for extracting the top features (via SAEs) corresponding to hallucinations on the LAMBADA dataset -- a dataset containing cloze-style/'fill-in-the-blank'-style questions. These features are then steered to manipulate the amount of hallucinations in generating responses to LAMBADA prompts.  We then run the steered model on two other tasks/datasets -- WritingPrompts and PIQA -- to test for generalizability and continuity of our findings in other task sets.  Transcoder Circuits are also used to aid in feature interpretation, as our SAE-based analysis suggests hallucination-causing features may not capture the semantic intricacies of LLM representation space, but rather its underlying structure.  See the included paper for an in-depth overview and discussion of this project and its results.
